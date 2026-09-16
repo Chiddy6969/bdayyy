@@ -7,19 +7,19 @@ import Image from "next/image";
 const postcards = [
   {
     id: 1,
-    imageSrc: "/images/photo1.heic",
+    imageSrc: "/images/photo1.jpg",
     note: "I am all yours, now, tomorrow and forever",
     rotation: Math.random() * 12 - 6,
   },
   {
     id: 2,
-    imageSrc: "/images/photo2.heic",
+    imageSrc: "/images/photo2.jpg",
     note: "Our first trip together. Getting lost with you is my favorite place to be.",
     rotation: Math.random() * 12 - 6,
   },
   {
     id: 3,
-    imageSrc: "/images/photo3.heic",
+    imageSrc: "/images/photo3.jpg",
     note: "Talking to you is the favourite part of my day",
     rotation: Math.random() * 12 - 6,
   },

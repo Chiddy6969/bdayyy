@@ -2,6 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: 'export',
+  basePath: '/bdayyy',
   images: {
     unoptimized: true,
   },
