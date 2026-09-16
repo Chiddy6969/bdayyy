@@ -3,65 +3,75 @@
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import photo1 from "../../public/images/photo1.jpg";
+import photo2 from "../../public/images/photo2.jpg";
+import photo3 from "../../public/images/photo3.jpg";
+import photo4 from "../../public/images/photo4.jpg";
+import photo5 from "../../public/images/photo5.jpg";
+import photo6 from "../../public/images/photo6.jpg";
+import photo7 from "../../public/images/photo7.jpg";
+import photo8 from "../../public/images/photo8.jpg";
+import photo9 from "../../public/images/photo9.jpg";
+import photo10 from "../../public/images/photo10.jpg";
 
 const postcards = [
   {
     id: 1,
-    imageSrc: "/images/photo1.jpg",
+    imageSrc: photo1,
     note: "I am all yours, now, tomorrow and forever",
     rotation: Math.random() * 12 - 6,
   },
   {
     id: 2,
-    imageSrc: "/images/photo2.jpg",
+    imageSrc: photo2,
     note: "Our first trip together. Getting lost with you is my favorite place to be.",
     rotation: Math.random() * 12 - 6,
   },
   {
     id: 3,
-    imageSrc: "/images/photo3.jpg",
+    imageSrc: photo3,
     note: "Talking to you is the favourite part of my day",
     rotation: Math.random() * 12 - 6,
   },
   {
     id: 4,
-    imageSrc: "/images/photo4.jpg",
+    imageSrc: photo4,
     note: "Always drunk on you hehe",
     rotation: Math.random() * 12 - 6,
   },
   {
     id: 5,
-    imageSrc: "/images/photo5.jpg",
+    imageSrc: photo5,
     note: "Loving you is the greatest adventure ",
     rotation: Math.random() * 12 - 6,
   },
   {
     id: 6,
-    imageSrc: "/images/photo6.jpg",
+    imageSrc: photo6,
     note: "Every new adventure with you is better than the last. Here's to making many more memories!",
     rotation: Math.random() * 12 - 6,
   },
   {
     id: 7,
-    imageSrc: "/images/photo7.jpg",
+    imageSrc: photo7,
     note: "You are artwork 🤌, I could admire you for a thousand lifetimes",
     rotation: Math.random() * 12 - 6,
   },
   {
     id: 8,
-    imageSrc: "/images/photo8.jpg",
+    imageSrc: photo8,
     note: "I would choose you in every universe 🫶",
     rotation: Math.random() * 12 - 6,
   },
   {
     id: 9,
-    imageSrc: "/images/photo9.jpg",
+    imageSrc: photo9,
     note: "Looking at this photo reminds me of just how incredibly lucky I am to have you in my life.",
     rotation: Math.random() * 12 - 6,
   },
   {
     id: 10,
-    imageSrc: "/images/photo10.jpg",
+    imageSrc: photo10,
     note: "No matter how much I say I love you I will ALWAYS Love you wayyyy moreee.",
     rotation: Math.random() * 12 - 6,
   }
