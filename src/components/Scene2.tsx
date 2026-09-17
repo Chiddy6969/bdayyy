@@ -24,7 +24,7 @@ const postcards = [
   {
     id: 2,
     imageSrc: photo2,
-    note: "Our first trip together. Getting lost with you is my favorite place to be.",
+    note: "I love Exploring new places with you, Can't wait to explore the wholeee world with you hehe",
     rotation: Math.random() * 12 - 6,
   },
   {
@@ -48,7 +48,7 @@ const postcards = [
   {
     id: 6,
     imageSrc: photo6,
-    note: "Every new adventure with you is better than the last. Here's to making many more memories!",
+    note: "Even on my bad days, you're still the reason I smile",
     rotation: Math.random() * 12 - 6,
   },
   {
@@ -66,7 +66,7 @@ const postcards = [
   {
     id: 9,
     imageSrc: photo9,
-    note: "Looking at this photo reminds me of just how incredibly lucky I am to have you in my life.",
+    note: "I am so proud of the person you are, you are the beshttt <3",
     rotation: Math.random() * 12 - 6,
   },
   {
